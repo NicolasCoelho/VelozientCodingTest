@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwistedFizzBuzz", "TwistedFizzBuzz\TwistedFizzBuzz.csproj", "{F0E9453A-1B4D-4887-9B3F-ABAA2F9E61C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C717B540-8AE5-4530-9D60-61A68E246DCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F0E9453A-1B4D-4887-9B3F-ABAA2F9E61C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0E9453A-1B4D-4887-9B3F-ABAA2F9E61C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0E9453A-1B4D-4887-9B3F-ABAA2F9E61C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C717B540-8AE5-4530-9D60-61A68E246DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C717B540-8AE5-4530-9D60-61A68E246DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C717B540-8AE5-4530-9D60-61A68E246DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C717B540-8AE5-4530-9D60-61A68E246DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
