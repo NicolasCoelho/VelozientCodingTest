@@ -6,9 +6,7 @@ namespace StandardFizzBuzz
     {
         static void Main(string[] args)
         {
-            var twisted = new TwistedFizzBuzzEngine();
-            
-            twisted.DoFizzBuzz();
+            new TwistedFizzBuzzEngine().DoFizzBuzz();
         }
     }
 }
