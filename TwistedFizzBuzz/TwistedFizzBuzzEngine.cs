@@ -41,21 +41,21 @@ namespace TwistedFizzBuzz
             KeyTokenList = tokens;
         }
 
-        public void DoFizzBuzz()
+        public IEnumerable<string> DoFizzBuzz()
         {
             for (var i = MinValue; i <= MaxValue; i++)
             {
                 var result = Match(i);
-                Console.WriteLine(result);
+                yield return result;
             }
         }
 
-        public void DoFizzBuzzByCustomList(IEnumerable<int> customList)
+        public IEnumerable<string> DoFizzBuzzByCustomList(IEnumerable<int> customList)
         {
             foreach (var i in customList)
             {
                 var result = Match(i);
-                Console.WriteLine(result);
+                yield return result;
             }
         }
 

@@ -15,7 +15,9 @@ namespace ComplexFizzBuzz
                 new(27, "Bar"),
             };
 
-            new TwistedFizzBuzzEngine(intialRange, finalRange, tokens).DoFizzBuzz();
+            var result = new TwistedFizzBuzzEngine(intialRange, finalRange, tokens).DoFizzBuzz();
+            
+            foreach(var element in result) { Console.WriteLine(element); }
         }
     }
 }

@@ -6,7 +6,9 @@ namespace StandardFizzBuzz
     {
         static void Main(string[] args)
         {
-            new TwistedFizzBuzzEngine().DoFizzBuzz();
+            var result = new TwistedFizzBuzzEngine().DoFizzBuzz();
+
+            foreach (var element in result) { Console.WriteLine(element); }
         }
     }
 }

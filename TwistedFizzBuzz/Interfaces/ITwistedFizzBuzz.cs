@@ -2,8 +2,8 @@
 {
     public interface ITwistedFizzBuzz
     {
-        public void DoFizzBuzz();
+        public IEnumerable<string> DoFizzBuzz();
 
-        public void DoFizzBuzzByCustomList(IEnumerable<int> customList);
+        public IEnumerable<string> DoFizzBuzzByCustomList(IEnumerable<int> customList);
     }
 }
